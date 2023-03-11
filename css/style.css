@@ -1,5 +1,5 @@
 body{
-    padding: 40px 40px 40px 40px;
+    padding: 50px 10px;
     background-color: #3d405b;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -9,11 +9,14 @@ body{
 main{
     background-color: #eee2df;
     border-radius: 30px;
+    margin: 20px 20px;
+    padding: 20px 20px;
 }
 
 footer{
     background-image: url(../images/background_pic.gif);
     color: white;
+    padding: 20px 20px;
 }
 
 img{
@@ -49,8 +52,14 @@ ul {
     font-size: 30px;   
 }
 
-li{
-    padding: 20px 15px;
+nav li{
+    padding: 10px 15px;
+    border: 2px solid #f2cc8f;
+    width: 23%;
+    border-radius: 50px;
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -58,12 +67,14 @@ nav a{
     text-decoration: none;
     color: #f2cc8f;
     font-family: 'Special Elite', cursive;
+    
+    
 }
 
 .active{
    
     text-decoration: underline;
-    text-underline-offset: 8px; 
+    text-underline-offset: 10px; 
     color: #f4f1de;
     text-transform: uppercase;
 }
@@ -78,21 +89,45 @@ nav a{
     left: 0px;
 }
 
-#logo{
+.logo{
     color: #81b29a;
-    font-family: 'Special Elite', cursive;
-    font-size: 50px ;
-    font-weight: 600;
+    font-family: arial, sans-serif;
+    font-size: 40px ;
+    font-weight: 300;
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
 }
 
+/* literature page styling */
 .litcontainer{
     display:grid;
     grid-template-columns: 1;
     justify-content: center;
 }
+
+/* Dictionary page styling */
+dl div
+{
+    margin: 20px 20px;
+}
+
+dl h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #3d405b;
+}
+
+dl h3
+{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
 
 @media (prefers-reduced-motion: reduce) {
     img{
