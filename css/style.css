@@ -30,7 +30,8 @@ img{
 
 img:hover
 {
-    border: 10px solid #81b29a;
+    border: 5px solid #81b29a;
+    opacity: 0.5;
 }
 
 div:nth-child(even) img{
@@ -42,11 +43,10 @@ div:nth-child(even) img{
 
 ul {
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: column;
+    text-align: center;
     padding: 0px 20px;
-    
-    
+    font-size: 30px;   
 }
 
 li{
