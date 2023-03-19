@@ -1,3 +1,4 @@
+/* Styling for every page */
 body{
     padding: 50px 10px;
     background-color: #3d405b;
@@ -95,12 +96,74 @@ nav a{
     text-align: center;
 }
 
+/* Index page styling */
+
+.index h2 {
+    font-size: 23px;
+    margin-top: 30px;
+    color: #3d405b;
+}
+
+.index p{
+    margin-bottom: 20px;
+}
+
+.intro{
+    margin-top: 20px;
+}
+
 /* literature page styling */
 .litcontainer{
     display:grid;
     grid-template-columns: 1;
     justify-content: center;
 }
+
+.litcontainer div{
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.litcontainer h2{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #3d405b;
+}
+
+.litcontainer h3{
+    font-size:18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #3d405b;
+}
+
+.litcontainer li{
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 5px;
+    list-style: circle;
+}
+
+/* History page styling */
+.hiscontainer div{
+    margin-top: 60px;
+    padding: 0px 20px;
+}
+
+.hiscontainer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hiscontainer h2{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #3d405b;
+}
+
 
 /* Dictionary page styling */
 dl div
